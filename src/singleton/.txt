@@ -1,0 +1,8 @@
+Main purpose:
+
+A singleton ensures that there is only one instance of a class in the entire program.
+Preventing the creation of multiple copies of an object.
+Sharing the same object across project components.
+
+✅ Example 1 (very simple) – Logger
+✅ Example 2 (more practical) – Database Connection

@@ -1,0 +1,21 @@
+📝 The Idea
+Instead of using new everywhere to create an object, I create a dedicated method responsible for "creating" or "generating" the object.
+
+The Goal:
+Separating the creation logic from the usage logic.
+Making it easier to add new types without modifying the underlying code (Open/Closed Principle).
+
+🤔 When do we use it?
+If I have more than one type of object, they share a common behavior.
+But the way they are created is different.
+I don't want the underlying code to know the details of the creation process, but rather use the interface.
+
+💡 Real-World Examples
+Payment Systems:
+Visa, PayPal, Stripe… They all perform a "payment" process, but the creation is different.
+
+Notification System:
+SMS, Email, Push Notification.
+
+Database Connection:
+MySQL, PostgreSQL, MongoDB.
