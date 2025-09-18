@@ -108,7 +108,7 @@ index.ts
 - **HighCoupling/** → High coupling problem example (UserService depends directly on MySQLDatabase).
 - **LowCoupling/** → Solution using abstraction (UserService depends on Interface Database).
 
----
+[Go to Coupling Code](./src/SOLID/Coupling/Coupling/)
 
 ## ⚡ Running the Code
 
